@@ -10,8 +10,5 @@ hello world C++
 hello world javascript
 hello world spring
 origin main 수정
-<<<<<<< HEAD
 hello world spring2
-=======
 hello world spring3
->>>>>>> 51aa592adb7d9b5ad9d8122a65d01836139bc140
