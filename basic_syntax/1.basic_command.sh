@@ -47,3 +47,14 @@ git pull origin 브랜치명
 
 # 워격에 변경사항을 local에 가져오되 병합은 하지 않은 것
 git fetch origin main
+
+
+# git 작업 취소
+# commit 이후의 취소
+git reset head~1
+git reset head^
+# staging area로 까지만 취소 
+git reset --soft head~1
+
+# push 이후의 취소 -> commit 메시지 작성 vi 화면으로 이동 -> :wq
+git revert 기존의ID
