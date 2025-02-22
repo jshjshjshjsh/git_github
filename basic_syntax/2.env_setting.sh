@@ -50,3 +50,6 @@ git config --list
 # 특정 파일을 git 추적목록에서 제외시키고 싶다면 .gitignore 파일에 파일목록 등록
 # 이미 add, commit 되어 버린 파일을 추적목록에서 제외하고 싶다면
 git rm -r --cached .
+
+# 충돌무시하고 강제 push
+git push origin main --force
